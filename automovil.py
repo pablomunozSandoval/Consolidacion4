@@ -1,3 +1,5 @@
+# automovil.py
+import csv
 from vehiculo import Vehiculo
 
 class Automovil(Vehiculo):
@@ -5,3 +7,4 @@ class Automovil(Vehiculo):
         super().__init__(marca, modelo, nro_ruedas)
         self.velocidad = velocidad
         self.cilindrada = cilindrada
+
